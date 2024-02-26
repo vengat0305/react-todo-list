@@ -1,0 +1,169 @@
+.colorsBtn {
+  display: flex;
+  gap: 1rem;
+}
+.grayColor {
+  width: 2rem;
+  height: 2rem;
+  background-color: #ffecec;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid black;
+}
+.grayColor:hover {
+  box-shadow: 0px 1px 15px #a7a7a7;
+}
+.whiteColor {
+  border: 2px solid black;
+  width: 2rem;
+  height: 2rem;
+  background-color: #e2f7ff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.whiteColor:hover {
+  box-shadow: 0px 1px 15px #adadad;
+}
+.blackColor {
+  border: 2px solid black;
+  width: 2rem;
+  height: 2rem;
+  background-color: #fffec3;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.blackColor:hover {
+  box-shadow: 0px 1px 15px #b2b2b2;
+}
+.toDoContainer {
+  margin: 0 auto;
+  position: relative;
+  width: 42%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  border: 2px solid black;
+  box-shadow: 0px 5px 10px rgb(179, 179, 179);
+  border-radius: 10px;
+  margin-top: 10rem;
+  margin-left: 28rem;
+  background-color: #ffffff;
+  /* background: none;
+  backdrop-filter: blur(5px); */
+}
+.toDoCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  text-align: center;
+  gap: 1rem;
+}
+h1 {
+  overflow: hidden;
+  border-right: 0.2rem solid rgb(0, 0, 0);
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.15em;
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+  font-size: 70px;
+  font-family: "Kode Mono", monospace;
+  letter-spacing: 0.2rem;
+  font-weight: 400;
+  color: #000000;
+  border-radius: 5px;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 33%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: rgb(0, 0, 0);
+  }
+}
+.inputCol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+input {
+  width: 35rem;
+  height: 3rem;
+  padding: 0.5rem;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-family: "Kode Mono", monospace;
+  letter-spacing: 0.1rem;
+  box-shadow: 0px 5px 10px rgb(216, 216, 216);
+}
+.addBtn {
+  width: 35rem;
+  height: 3rem;
+  font-family: "Kode Mono", monospace;
+  letter-spacing: 0.2rem;
+  font-weight: 800;
+  /* box-shadow: 0px 5px 10px rgb(179, 179, 179); */
+}
+.listItems {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  /* border: 2px solid black; */
+  padding: 0.5rem;
+  border-radius: 5px;
+  /* box-shadow: 0px 5px 10px rgb(216, 216, 216); */
+}
+
+.listPara {
+  width: 32rem;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Kode Mono", monospace;
+  letter-spacing: 0.1rem;
+  border: 2px solid black;
+  padding: 0.4rem 1rem;
+  border-radius: 10px;
+  /* text-align: left; */
+}
+.listPara button {
+  border: none;
+  background: none;
+}
+.listPara .fa-circle-check {
+  border: none;
+  font-size: 18px;
+  padding: 0.5rem;
+  background-color: #000000;
+  border-radius: 2rem;
+  cursor: pointer;
+  color: #e9e9e9;
+}
+.listPara .fa-trash {
+  border: none;
+  font-size: 18px;
+  padding: 0.5rem;
+  background-color: #000000;
+  border-radius: 2rem;
+  cursor: pointer;
+  color: #e9e9e9;
+}
+/* ............................... */
